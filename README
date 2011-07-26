@@ -1,0 +1,49 @@
+XWator was originally developed in 1990 by myself (Ronald Record) and Brian Chapman. It is an X11 client simulating evolving sharks and fish populations (predator/prey) dynamics.
+
+Calculate and graphically display generations of fish and sharks
+
+Authored and Contributed by
+    Ronald Joe Record and Brian Chapman 
+
+Restrictions
+    Copyright 1993, 1994 Ronald Joe Record and Brian Chapman 
+
+Description
+    Xwator is a simulation of sharks and fish with the fish "swimming" around and the sharks "eating" the fish. We added some rules to simulate evolution amongst both the sharks and the fish. 
+
+Build
+    To build with the Imakefile, first type "xmkmf" or "imake -DUseInstalled -I/usr/lib/X11/config" if your system doesn't have xmkmf. Then just type "make" and the xwator binary will be built.
+
+    The manual pages can be formatted by typing "nroff -man xwator.man > xwator.1" 
+
+Install
+    To install xwator, simply run "make install ; make install.man" as root. 
+
+Usage
+
+    xwator [-CEPe] [-R res] [-w width] [-h height]
+    	[-M SHARK_MUTATE] [-S SHARK_SPAWN] [-T SHARK_STARVE]
+    	[-m FISH_MUTATE] [-s FISH_SPAWN] [-t FISH_CRUSH]
+    	Where :
+    	'-C' indicates display population curves
+    	'-E' indicates use full screen
+    	'-P' indicates suppress population return maps
+    	'-c' indicates continue computing
+    	'-e' indicates erase screen every PPL generations
+    	Defaults :
+    	width=100 height=80
+    	SHARK_SPAWN=10 SHARK_MUTATE=400 SHARK_STARVE=2
+    	FISH_SPAWN=7 FISH_MUTATE=400 FISH_CRUSH=500
+
+Safety
+    I have used these for years without harm. 
+
+Work Planned
+    None 
+
+Documentation
+    manual pages. 
+
+Feedback
+    Ideas, comments, additions, deletions, suggestions, bug reports, code review,... e-mail Ronald Record at rr@ronrecord.com 
+

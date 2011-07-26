@@ -1,0 +1,50 @@
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+! Wator: class resource file for wator
+!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!!
+!
+*title: Xwator by Brian Chapman & Ron Record
+Wator*resizable:	TRUE
+Wator*framework*width:	450
+Wator*framework*height:	350
+Wator*topAttachment:	ATTACH_POSITION
+Wator*bottomAttachment:	ATTACH_POSITION
+Wator*leftAttachment:	ATTACH_POSITION
+Wator*rightAttachment:	ATTACH_POSITION
+Wator*drawing_canvas*leftPosition:	01
+Wator*drawing_canvas*rightPosition:	59
+Wator*drawing_canvas*topPosition:	47
+Wator*drawing_canvas*bottomPosition:	90
+Wator*fish*leftPosition:	61
+Wator*fish*rightPosition:	99
+Wator*fish*topPosition:		01
+Wator*fish*bottomPosition:	45
+Wator*sharks*leftPosition:	61
+Wator*sharks*rightPosition:	99
+Wator*sharks*topPosition:	47
+Wator*sharks*bottomPosition:	90
+Wator*pop_curves*leftPosition:	01
+Wator*pop_curves*rightPosition:	59
+Wator*pop_curves*topPosition:	01
+Wator*pop_curves*bottomPosition:	45
+Wator*curve_button*topPosition:	91
+Wator*curve_button*bottomPosition:	99
+Wator*curve_button*leftPosition:	1
+Wator*curve_button*rightPosition:	39
+Wator*go_button*topPosition:	91
+Wator*go_button*bottomPosition:	99
+Wator*go_button*leftPosition:	41
+Wator*go_button*rightPosition:	59
+Wator*stop_button*topPosition:	91
+Wator*stop_button*bottomPosition:	99
+Wator*stop_button*leftPosition:	61
+Wator*stop_button*rightPosition:	79
+Wator*quit_button*topPosition:	91
+Wator*quit_button*bottomPosition:	99
+Wator*quit_button*leftPosition:	81
+Wator*quit_button*rightPosition:	99
+Wator*go_button*labelString:   GO
+Wator*stop_button*labelString:   STOP
+Wator*quit_button*labelString:   QUIT
+Wator*curve_button*labelString:   CURVES OFF
+Wator*FishColor:	green
+Wator*SharkColor:	yellow

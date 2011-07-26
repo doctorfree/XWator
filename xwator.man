@@ -1,0 +1,13 @@
+usage: xwator [-CEPe] [-R res] [-w width] [-h height]
+	[-M SHARK_MUTATE] [-S SHARK_SPAWN] [-T SHARK_STARVE]
+	[-m FISH_MUTATE] [-s FISH_SPAWN] [-t FISH_CRUSH]
+	Where :
+	'-C' indicates display population curves
+	'-E' indicates use full screen
+	'-P' indicates suppress population return maps
+	'-c' indicates continue computing
+	'-e' indicates erase screen every PPL generations
+	Defaults :
+	width=100 height=80
+	SHARK_SPAWN=10 SHARK_MUTATE=400 SHARK_STARVE=2
+	FISH_SPAWN=7 FISH_MUTATE=400 FISH_CRUSH=500

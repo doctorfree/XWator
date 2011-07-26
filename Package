@@ -1,0 +1,7 @@
+echo "Making tags files"
+make tags
+echo "Backing up previous shar file, if any"
+[ -f xwator.shar ] && mv xwator.shar backups/xwator.shar-
+echo "Creating new shar file"
+shar Imakefile Package *.c *.h Wator.ad tags TAGS > xwator.shar
+echo "Done"

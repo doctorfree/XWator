@@ -1,0 +1,16 @@
+#
+#	Imakefile for xwator, by Ron Record
+#
+        DEPLIBS = $(DEPXLIB)
+#		 BINDIR = /usr/local/bin
+#         MANDIR = /usr/local/man/man1
+      MANSUFFIX = 1
+LOCAL_LIBRARIES = XmClientLibs
+  SYS_LIBRARIES = -lm
+           SRCS = xwator.c 
+           OBJS = xwator.o 
+
+ComplexProgramTarget(xwator)
+
+InstallAppDefaults(Wator)
+
