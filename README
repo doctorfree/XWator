@@ -1,4 +1,4 @@
-XWator was originally developed in 1990 by myself (Ronald Record) and Brian Chapman. It is an X11 client simulating evolving sharks and fish populations (predator/prey) dynamics.
+XWator was originally developed in 1990 by myself (Ronald Record) and Brian Chapman. It is an X11 client simulating evolving sharks and fish populations (predator/prey) dynamics. The original version of XWator uses the X11 imake build system and X11 graphical libraries. It needs porting work to use modern graphical libraries. However, the algorithms may be of interest to those wishing to model population dynamics and/or species evolution.
 
 Calculate and graphically display generations of fish and sharks
 

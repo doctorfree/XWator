@@ -1,6 +1,6 @@
 /*
  * (c) Copyright Brian Chapman (bchapman@microsoft.com) and 
- *               Ronald Joe Record (rr@sco.com)
+ *               Ronald Joe Record (rr@ronrecord.com)
  *
  * Authors - Brian Chapman and Ronald Joe Record
  *
